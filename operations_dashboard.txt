@@ -1,0 +1,13 @@
+OPERATIONAL PERFORMANCE DASHBOARD FRAMEWORK
+
+1. EXECUTIVE DASHBOARD DESIGN
+This document outlines the data structure and KPI framework designed for tracking operational efficiency. The backend metrics are powered by the SQL data models included in this repository.
+
+2. CORE KEY PERFORMANCE INDICATORS (KPIs)
+- Turnaround Time (SLA Tracking): Measures the total hours taken from customer ticket opening to resolution. Helps flag workflow delays.
+- Customer Satisfaction (CSAT): Tracks post-interaction ratings on a scale of 1-5 to evaluate service quality.
+- First Contact Resolution (FCR) Rate: Calculates the percentage of incoming issues successfully resolved on the very first interaction without customer follow-up.
+
+3. BUSINESS LOGIC & DATA MAPPING
+- Data Source: Raw customer interaction logs, processing time stamps, and agent assignment matrices.
+- Target Audience: Operations Managers and Quality Assurance teams.
